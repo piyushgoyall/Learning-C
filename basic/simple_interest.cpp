@@ -8,7 +8,7 @@ int main()
 	scanf("%d",&r);
 	printf("enter the value of t");
 	scanf("%d",&t);
-	d=(p*r*t)/100;
+	si=(p*r*t)/100;
 	printf("%d",si);
 	
 }
