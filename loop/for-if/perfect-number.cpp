@@ -12,7 +12,7 @@ int main()
 		  printf("%d\t",i);
 		  sum = sum+ i;
 		  product = product*i;	
-        }
+                }
 	}
 	if(sum==num&&product==num)
 	{
@@ -22,8 +22,4 @@ int main()
 	{
 		printf("\n%d is not a perfect number",num);
 	}
-	 
-
-	
-	 
 }
