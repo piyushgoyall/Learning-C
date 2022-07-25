@@ -8,12 +8,12 @@ int main()
 	{
 		i=num%10;
 		printf("%d\t",i);
-	    factorial = 1;
-	    for(j=1;j<=i;j++)
-	    {
-	    	factorial = factorial*j;
+	        factorial = 1;
+	        for(j=1;j<=i;j++)
+	        {
+	    	    factorial = factorial*j;
 		}
-	    sum = sum+factorial;
+	sum = sum+factorial;
 	}
 	if(sum==original_num)
 	{
