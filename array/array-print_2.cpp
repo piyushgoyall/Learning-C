@@ -3,11 +3,10 @@
 int main()
 {
 	int a[7],pos;
-
 	for(pos = 0;pos<=6;pos++)
 	{
 		printf("Enter the value for a[%d] ",pos);
-	    scanf("%d",&a[pos]);
+	        scanf("%d",&a[pos]);
 	}
 	for(pos = 0;pos<=6;pos++)
 	{
