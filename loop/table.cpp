@@ -7,7 +7,6 @@ int main()
 	for(int a=1; a<=10; a++)
 	{
 		table=n*a;
-	printf("%d\n",table);
+	        printf("%d\n",table);
 	}
-	
 }
