@@ -16,17 +16,14 @@ int main()
 	printf("\n");
 	printf("Enter the element to be searched ");
 	scanf("%d",&search);
-    for(pos=0;pos<=4;pos++)
-    {
-    	if(search==a[pos])
+        for(pos=0;pos<=4;pos++)
+        {
+    	        if(search==a[pos])
 		{
 			flag=1;
-			break;
-			
+			break;	
 		}
-		
 	}
-	
 	if(flag==1)
 	{
 		printf("Element Found");
@@ -35,5 +32,4 @@ int main()
 	{
 		printf("Element Not Found");
 	}
-	
 }
