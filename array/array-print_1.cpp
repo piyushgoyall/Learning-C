@@ -3,7 +3,6 @@
 int main()
 {
 	int a[5],pos;
-	
 	for(pos=0;pos<=4;pos++)
 	{
 		printf("enter the value for a[%d]",pos);
