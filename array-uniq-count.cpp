@@ -24,6 +24,6 @@ int main()
 				count=count+1;
 			}
 	}
-		printf("Total unique elements = %d\n",count);
+	printf("Total unique elements = %d\n",count);
 }
 
