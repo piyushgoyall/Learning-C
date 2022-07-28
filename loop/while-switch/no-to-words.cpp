@@ -13,7 +13,7 @@ int main()
 	}
 	while(reverse>0)
 	{ 
-	l=reverse%10;
+		l=reverse%10;
 		switch(l)
 		{
 			case 0:
@@ -28,7 +28,7 @@ int main()
 			case 3:
 				printf("three\t");
 				break;
-				case 4:
+			case 4:
 				printf("four\t");
 				break;
 			case 5:
@@ -40,14 +40,12 @@ int main()
 			case 7:
 				printf("seven\t");
 				break;
-				case 8:
+			case 8:
 				printf("eight\t");
 				break;
 			case 9:
 				printf("nine\t");
 				break;
-			
-				
 		}
 		reverse = reverse/10;
 	}
