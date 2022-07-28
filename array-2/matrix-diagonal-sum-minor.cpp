@@ -1,3 +1,4 @@
+//wap to find sum of minor diagonal elements of a matrix
 #include<stdio.h>
 int main()
 {
