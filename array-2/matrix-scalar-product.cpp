@@ -23,13 +23,13 @@ int main()
 	printf("\n");
 	printf("Enter the number you want to multipy with the matrix ");
 	scanf("%d",&scalar);
-    for(row=0; row<=1; row++)
-    {
-    	for(column=0; column<=1;column++)
-    	{
-    		product[row][column]=scalar*a[row][column];
-    		printf("%d\t",product[row][column]);
+        for(row=0; row<=1; row++)
+        {
+    	        for(column=0; column<=1;column++)
+    	        {
+    		        product[row][column]=scalar*a[row][column];
+    		        printf("%d\t",product[row][column]);
 		}
-	printf("\n");
+	        printf("\n");
 	}
 }
