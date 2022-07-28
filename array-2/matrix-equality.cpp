@@ -43,19 +43,19 @@ int main()
 		for(column=0; column<=1; column++)
 		{
 			if(a[row][column] != b[row][column])
-	        {
-	        	flag=0;
-	        	break;
+	        	{
+	        		flag=0;
+	        		break;
 			}
 		}	
 	}
 	
 	if(flag==1)
 	{
-		printf("Matrix are equal");
+		printf("Matrices are equal");
 	}
 	else
 	{
-		printf("Matrix are not Equal");
+		printf("Matrices are not Equal");
 	}
 }
