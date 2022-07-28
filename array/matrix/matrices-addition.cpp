@@ -18,7 +18,7 @@ int main()
 		{
 			printf("%d\t",first[row][column]);
 		}
-		printf("\n");
+	printf("\n");
 	}
 	for(row=0; row<=1; row++)
 	{
@@ -43,8 +43,8 @@ int main()
 		for(column=0; column<=1; column++)
 		{
 			sum[row][column]=first[row][column]+second[row][column];
-	        printf("%d\t",sum[row][column]);
+	                printf("%d\t",sum[row][column]);
 		}
-		printf("\n");
-	} 
+	printf("\n");
+	}
 }
