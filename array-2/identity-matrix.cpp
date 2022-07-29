@@ -34,7 +34,9 @@ int main()
 		}
 	}
 	if(flag==1)
-	printf("Identity matrix");
+	{	
+		printf("Identity matrix");
+	}
 	else
 	{
 		printf("Not an identity matrix");
