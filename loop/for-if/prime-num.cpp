@@ -16,10 +16,10 @@ int main()
     
     	if(flag==0)
     	{
-    		printf("This is Prime Number");
+    		printf("This is a Prime Number");
 	}
 	else
 	{
-		printf("This is Not Prime Number");
+		printf("This is Not a Prime Number");
 	}
 }
