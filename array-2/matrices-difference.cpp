@@ -43,8 +43,8 @@ int main()
 		for(column=0; column<=1; column++)
 		{
 			diff[row][column]=second[row][column]-first[row][column];
-	        printf("%d\t",diff[row][column]);
+	        	printf("%d\t",diff[row][column]);
 		}
-	printf("\n");
+		printf("\n");
 	} 
 }
