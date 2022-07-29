@@ -6,18 +6,17 @@ int main()
 	printf("enter the number ");
 	scanf("%d",&number);
 	for(int i=2; i<number;i++) 
-    {
-	  if(number%i == 1)
-	  {    	
-	   flag = 1;
-	   break;
-	  }
-	  
-    }
+    	{
+	  	if(number%i == 1)
+	  	{    	
+	   		flag = 1;
+	   		break;
+	  	}
+    	}
     
-    if(flag==0)
-    {
-    	printf("This is Prime Number");
+    	if(flag==0)
+    	{
+    		printf("This is Prime Number");
 	}
 	else
 	{
