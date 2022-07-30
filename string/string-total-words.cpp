@@ -14,7 +14,4 @@ int main()
 		}
 	}
 	printf("Total words = %d",words);
-	
-
-	
 }
