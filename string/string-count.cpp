@@ -27,7 +27,7 @@ int main()
 		}
 	}
 	printf("Total uppercase alphabets :- %d\n",uc);
-    printf("Total lowercase alphabets :- %d\n",lc);
-    printf("Total digits :- %d\n",digit);
-    printf("Total special characters :- %d\n",sc);
+    	printf("Total lowercase alphabets :- %d\n",lc);
+    	printf("Total digits :- %d\n",digit);
+    	printf("Total special characters :- %d\n",sc);
 }
