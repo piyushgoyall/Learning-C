@@ -8,7 +8,7 @@ int main()
 		{
 			printf("%d",(column+1));
 		}
-		printf("\n");
+	printf("\n");
 	}
 	for(row=0; row<=3; row++)
 	{
@@ -16,6 +16,6 @@ int main()
 		{
 			printf("%d",(column+1));
 		}
-		printf("\n");
+	printf("\n");
 	}
 }
