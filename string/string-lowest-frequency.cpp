@@ -38,5 +38,5 @@ int main()
 		{
 			printf("Lowest frequency = %c\n",s[i]);
 		}
-    }
+    	}
 }
