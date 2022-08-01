@@ -23,8 +23,8 @@ int main()
 		{
 			max = count;
 		}
-    }
-    for(i=0; i<l; i++)
+    	}
+    	for(i=0; i<l; i++)
 	{
 		count=0;
 		for(j=0; j<l; j++)
@@ -38,5 +38,5 @@ int main()
 		{
 			printf("Highest frequency = %c\n",s[i]);
 		}
-    }
+    	}
 }
