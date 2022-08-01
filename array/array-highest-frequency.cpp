@@ -27,7 +27,7 @@ int main()
 		}
 		if(count>max)
 		{
-				max = count;
+			max = count;
 		}
 	}
 	for(pos=0; pos<=4; pos++)
