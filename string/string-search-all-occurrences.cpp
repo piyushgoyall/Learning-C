@@ -20,7 +20,6 @@ int main()
 			{		
 				flag=1;
 				count=count+1;
-				
 			}
 			for(k=0;temp[k]!='\0';k++)
 			{
