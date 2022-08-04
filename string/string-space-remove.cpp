@@ -9,11 +9,11 @@ int main()
 	printf("\n");
 	int l,i;
 	l = strlen(s);
-    	for(i=0; i<l; i++)
+    for(i=0; i<l; i++)
+    {
+    	if(s[i] != ' ')
     	{
-    		if(s[i] != ' ')
-    		{
-    			printf("%c",s[i]);
+    		printf("%c",s[i]);
 		}
 	}
 }
