@@ -7,5 +7,4 @@ int main()
 	scanf("%d",&a);
 	b=sqrt(a);
 	printf("%d",b);
-	
 }
