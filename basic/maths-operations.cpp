@@ -15,6 +15,5 @@ int main()
 	f=a/b;
 	printf("%d\n",f);
 	g=a%b;
-    printf("%d",g);
-	
+    	printf("%d",g);
 }
