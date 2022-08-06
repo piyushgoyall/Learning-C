@@ -10,5 +10,4 @@ int main()
 	a=b;
 	b=c;
 	printf("%d\n%d\n",a,b);
-	
 }
