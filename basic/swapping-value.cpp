@@ -10,5 +10,4 @@ int main()
 	b=a-b;
 	a=a-b;
 	printf("%d\n%d\n",a,b);
-
 }
