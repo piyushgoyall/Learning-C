@@ -8,4 +8,4 @@ int main()
 	scanf("%d",&b);
 	a=a+b;
 	printf("%d",a);
-	}
+}
