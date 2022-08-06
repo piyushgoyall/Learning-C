@@ -5,4 +5,5 @@ int main()
 	a=37;
 	b=53;
 	c=180-(a+b);
-	printf("%d",c);	}
+	printf("%d",c);
+}
