@@ -10,5 +10,4 @@ int main()
 	f=a/b;
 	g=a%b;
 	printf("%d %d %d %d %d",c,d,e,f,g);
-	
 }
