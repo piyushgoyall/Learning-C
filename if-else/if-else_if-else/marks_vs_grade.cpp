@@ -15,27 +15,26 @@ int main()
 	t=(p+c+b+m+o)/5;
 	if(t>90)
 	{
-	printf("Grade A");
-    }
-    else if(t>80)
+		printf("Grade A");
+    	}
+    	else if(t>80)
 	{
-	printf("Grade B");
-    }
-    else if(t>70)
+		printf("Grade B");
+    	}
+    	else if(t>70)
 	{
-	printf("Grade C");
-    }
-     else if(t>60)
+		printf("Grade C");
+    	}
+     	else if(t>60)
 	{
-	printf("Grade D");
-    }
-     else if(t>40)
+		printf("Grade D");
+    	}
+     	else if(t>40)
 	{
-	printf("Grade E");
-    }
-    else
-    
-    {
-    	printf("Grade F");
+		printf("Grade E");
+    	}
+    	else
+    	{
+    		printf("Grade F");
 	}
 }
