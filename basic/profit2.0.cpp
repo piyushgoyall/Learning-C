@@ -7,4 +7,4 @@ int main()
 	c=a-b;
 	d=(c*100)/b;
 	printf("%d",d);
-	}
+}
