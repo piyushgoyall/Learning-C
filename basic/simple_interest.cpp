@@ -9,6 +9,5 @@ int main()
 	printf("enter the value of t");
 	scanf("%d",&t);
 	si=(p*r*t)/100;
-	printf("%d",si);
-	
+	printf("%d",si);	
 }
