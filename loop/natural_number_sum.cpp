@@ -8,5 +8,5 @@ int main()
 	{
 		sum=sum+a;
 	}
-printf("%d",sum);	
+	printf("%d",sum);	
 }
