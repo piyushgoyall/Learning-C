@@ -8,10 +8,9 @@ int main()
 	switch(b)
 	{
 		case 0:
-		printf("even");
-		break;
-	    case 1:
-		printf("odd");
-		
+			printf("even");
+			break;
+	    	case 1:
+			printf("odd");
 	}
 }
