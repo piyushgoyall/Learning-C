@@ -6,8 +6,7 @@ int main()
 	scanf("%c",&a);
 	switch(a)
 	{
-	
-	case'january':
+		case'january':
 		printf("30");
 		break;
 		case'februuary':
@@ -25,7 +24,7 @@ int main()
 		case'june':
 		printf("30");
 		break;
-		case'uly':
+		case'july':
 		printf("31");
 		break;
 		case'august':
@@ -44,6 +43,6 @@ int main()
 		printf("31");
 		break;
 		default:
-			printf("invalid");
-}
+		printf("invalid");
+	}
 }
