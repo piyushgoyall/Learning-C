@@ -4,31 +4,30 @@ int main()
 	int a;
 	printf("enter the value of a ");
 	scanf("%d",&a);
-	
 	switch(a)
 	{
 		case 1:
 			printf("monday");
 			break;
-			case 2:
+		case 2:
 			printf("tuesday");
 			break;
-			case 3:
+		case 3:
 			printf("wednesday");
 			break;
-			case 4:
+		case 4:
 			printf("thursday");
 			break;
-			case 5:
+		case 5:
 			printf("friday");
 			break;
-			case 6:
+		case 6:
 			printf("saturday");
 			break;
-			case 7:
+		case 7:
 			printf("sunday");
 			break;
-			default:
-				printf("invalid");
+		default:
+			printf("invalid");
 	}
 }
