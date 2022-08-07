@@ -12,10 +12,10 @@ int main()
 		case 1:
 			printf(" %d",a);
 			break;
-			case 0:
-				printf(" %d",b);
-				break;
-				default:
-					printf("invalid");
+		case 0:
+			printf(" %d",b);
+			break;
+		default:
+			printf("invalid");
 	}
 }
