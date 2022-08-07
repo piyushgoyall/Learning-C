@@ -9,8 +9,8 @@ int main()
 		printf("upper case vowel");
 	}
 	else if(c =='a' || c =='e' || c =='i' || c =='o' || c =='u') 
-    {
-    	printf("lower case vowel");
+    	{
+    		printf("lower case vowel");
 	}
 	else
 	{
