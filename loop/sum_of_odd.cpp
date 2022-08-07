@@ -7,8 +7,9 @@ int main()
 	for(int a=1; a<=n; a++)
 	{
 		if (a%2==1)
-		sum=sum+a;
+		{	
+			sum=sum+a;
+		}
 	}
-
-	printf("%d",sum);
+		printf("%d",sum);
 }
