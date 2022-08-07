@@ -10,10 +10,10 @@ int main()
 	}
 	else if(c =='a'|| c =='e'|| c =='i'|| c =='o'|| c =='u')
 	{
-	printf("lower case vowel"); 
-    }
-    else
-    {
-    	printf("%c is a consonant",c);
+		printf("lower case vowel"); 
+    	}
+    	else
+    	{
+    		printf("%c is a consonant",c);
 	}
 }
