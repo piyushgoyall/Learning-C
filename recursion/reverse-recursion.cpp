@@ -1,14 +1,11 @@
+//wap to find the reverse of any number using recursion
 #include<stdio.h>
-
-
 int reverse(int n)
 {
 	int static rev =0;
-	
 	if(n>0)
 	{
 		rev = rev*10+(n%10);
-		
 		reverse(n/10);
 	}
 	else
@@ -16,7 +13,6 @@ int reverse(int n)
 		return rev;
 	}
 }
-
 int main()
 {
 	int n;
