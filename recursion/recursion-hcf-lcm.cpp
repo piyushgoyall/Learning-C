@@ -30,5 +30,4 @@ int main()
 	gcm = hcf(num1,num2);
 	lcm = (num1*num2)/gcm;
 	printf("LCM = %d",lcm);
-	
 }
