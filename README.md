@@ -5,4 +5,4 @@
 3.Use folder system for saving codes.\
 4.Always save all codes for the day on github.\
 5.Add description while writing code.\
-6.Check indentation of the code before uploading.\ 
+6.Check indentation of the code before uploading.
