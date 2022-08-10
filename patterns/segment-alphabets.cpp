@@ -274,14 +274,6 @@ int main()
 		printf("\n");
 	}
 	printf("\n");
-	
-	
-	
-	
-	
-	
-	
-	
 	for(row=0;row<5;row++)
 	{
 		for(column=0;column<5;column++)
