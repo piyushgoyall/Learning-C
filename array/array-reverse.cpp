@@ -16,7 +16,6 @@ int main()
         for(pos=0; pos<=4;pos++)
         {
                 b[4-pos] = a[pos];
-		
         }
        for(pos = 0;pos<=4;pos++)
 	{
