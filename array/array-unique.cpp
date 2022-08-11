@@ -19,9 +19,9 @@ int main()
 				flag=0;
 			}
 		}
-			if(flag==1)
-			{
-				printf("%d\t",a[pos]);
-			}
+		if(flag==1)
+		{
+			printf("%d\t",a[pos]);
+		}
 	}
 }
