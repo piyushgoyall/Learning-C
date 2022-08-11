@@ -19,10 +19,10 @@ int main()
 				flag=0;
 			}
 		}
-			if(flag==1)
-			{
-				count=count+1;
-			}
+		if(flag==1)
+		{
+			count=count+1;
+		}
 	}
 	printf("Total unique elements = %d\n",count);
 }
