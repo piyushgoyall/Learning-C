@@ -7,7 +7,7 @@ int main()
 	for(pos = 0;pos<=6;pos++)
 	{
 		printf("Enter the value for a[%d] ",pos);
-	    scanf("%d",&a[pos]);
+	    	scanf("%d",&a[pos]);
 	}
 	for(pos = 0;pos<=6;pos++)
 	{
@@ -15,9 +15,8 @@ int main()
 		b[pos] = a[pos];
 	}
 	printf("\n");
-   
-    for(pos=0; pos<=6;pos++)
-    {
-        printf("Element of b[%d] = %d\n",pos,b[pos]);
-    }
+    	for(pos=0; pos<=6;pos++)
+    	{
+        	printf("Element of b[%d] = %d\n",pos,b[pos]);
+    	}
 }
