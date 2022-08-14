@@ -17,5 +17,7 @@ int main()
 		printf("%c is a number",c);
 	}
 	else
+	{
 	printf("%c is a splecial character",c);
+	}
 }
