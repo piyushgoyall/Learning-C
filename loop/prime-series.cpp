@@ -1,4 +1,4 @@
-//wap to print all prime numbers between 2 to n
+//wap to print all prime numbers between two numbers
 #include<stdio.h>
 int main()
 {
