@@ -14,6 +14,6 @@ int main()
 	}
 	else
 	{
-		printf("Not a palindrom");
+		printf("Not a palindrome");
 	}
 }
