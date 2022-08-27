@@ -3,7 +3,7 @@ int main()
 {
 	int a,b,c,d,e,f;
     	char t;
-	printf("enter the input like 12+15 then press enter");
+	printf("enter the input like 12+15 then press enter : ");
 	scanf("%d%c%d",&a,&t,&b);
 	c=a+b;
 	d=a-b;
