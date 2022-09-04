@@ -40,7 +40,7 @@ int main()
 			}
 			printf("Grace : %d",gr);
 			break;
-			case 3:
+		case 3:
 			if(f<=1)
 			{
 				gr=5;
@@ -51,7 +51,7 @@ int main()
 			}
 			printf("Grace marks : %d",gr);
 			break;
-			default:
-				printf("Invalid");
+		default:
+			printf("Invalid");
 	}
 }
