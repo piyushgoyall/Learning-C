@@ -27,7 +27,7 @@ int main()
 		    {
 			gr=0;
 		    }
-		    printf("Grace : %d",gr);
+		    printf("Grace marks : %d",gr);
 		    break;
 		case 2:
                     if(f<=2)
@@ -38,7 +38,7 @@ int main()
 		    {
 			gr=0;
 		    }
-		    printf("Grace : %d",gr);
+		    printf("Grace marks : %d",gr);
 		    break;
 		case 3:
 		    if(f<=1)
