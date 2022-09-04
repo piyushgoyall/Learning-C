@@ -19,39 +19,39 @@ int main()
 	switch(cl)
 	{
 		case 1:
-			if(f<=3)
-			{
-				gr=5;
-			}
-			else
-			{
-				gr=0;
-			}
-			printf("Grace : %d",gr);
-			break;
+		    if(f<=3)
+		    {
+		     	gr=5;
+		    }
+		    else
+		    {
+			gr=0;
+		    }
+		    printf("Grace : %d",gr);
+		    break;
 		case 2:
-			if(f<=2)
-			{
-				gr=4;
-			}
-			else
-			{
-				gr=0;
-			}
-			printf("Grace : %d",gr);
-			break;
+                    if(f<=2)
+		    {
+			gr=4;
+		    }
+		    else
+		    {
+			gr=0;
+		    }
+		    printf("Grace : %d",gr);
+		    break;
 		case 3:
-			if(f<=1)
-			{
-				gr=5;
-			}
-			else
-			{
-				gr=0;
-			}
-			printf("Grace marks : %d",gr);
-			break;
+		    if(f<=1)
+		    {
+			gr=5;
+	            }
+		    else
+	            {
+			gr=0;
+		    }
+		    printf("Grace marks : %d",gr);
+		    break;
 		default:
-			printf("Invalid");
+		    printf("Invalid");
 	}
 }
