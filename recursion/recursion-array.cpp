@@ -1,13 +1,13 @@
 //wap to display all array elements using recursion
 #include<stdio.h>
-int array(int a[5])
+int print_array(int a[5])
 {
 	int static i=0;
 	if(i<=4)
 	{
 		printf("%d\t",a[i]);
 		i=i+1;
-		array(a);
+		print_array(a);
 	}
 }
 int main()
@@ -21,5 +21,5 @@ int main()
 		
 	}
 	printf("Elements of the array :  ");
-	array(a);
+	print_array(a);
 }
