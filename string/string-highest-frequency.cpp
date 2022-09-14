@@ -1,3 +1,4 @@
+//wap to find highest frequency character in a string.
 #include<stdio.h>
 #include<string.h>
 int main()
