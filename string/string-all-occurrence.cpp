@@ -1,3 +1,4 @@
+//wap to search all occurrences of a character in given string.
 #include<stdio.h>
 #include<string.h>
 int main()
