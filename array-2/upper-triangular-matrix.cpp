@@ -27,11 +27,16 @@ int main()
 		{
 			if(row<=column)
 			{
-				printf("%d\t",a[row][column]);
+				printf("%d",a[row][column]);
+			}
+			if(row>column)
+			{
+				printf("0");
+				printf("\t");
 			}
 			else
 			{
-			printf("\t");
+				printf("\t");
 		    	}
 		}
 		printf("\n");
