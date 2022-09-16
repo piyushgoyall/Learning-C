@@ -20,19 +20,24 @@ int main()
 		printf("\n");
 	}
 	printf("\n");
-	printf("Lower triangular matrix:\n");
+	printf("Upper triangular matrix:\n");
 	for(row=0; row<=2; row++)
 	{
 		for(column=0; column<=2; column++)
 		{
 			if(row>=column)
 			{
-				printf("%d\t",a[row][column]);
+				printf("%d",a[row][column]);
+			}
+			if(row<column)
+			{
+				printf("0");
+				printf("\t");
 			}
 			else
 			{
-			printf("\t");
-			}
+				printf("\t");
+		    	}
 		}
 		printf("\n");
 	}
