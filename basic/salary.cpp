@@ -2,8 +2,10 @@
 int main()
 {
 	int bs,gs,a,b,c;
-	printf("enter basic salary");
+	printf("Enter basic salary : ");
 	scanf("%d",&bs);
+	printf("\n");
+	printf("Gross salary : ");
 	if(bs>=10000 && bs<20000)
 	{
 		a=bs+(bs/5)+((bs*4)/5);
