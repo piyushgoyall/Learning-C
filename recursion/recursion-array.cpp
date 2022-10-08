@@ -1,4 +1,4 @@
-//wap to display all array elements using recursion
+// Wap to display all array elements using recursion
 #include<stdio.h>
 int print_array(int a[5])
 {
