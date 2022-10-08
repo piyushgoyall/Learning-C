@@ -1,4 +1,4 @@
-//wap to find sum of the digits of a given number using recursion 
+// Wap to find sum of the digits of a given number using recursion 
 #include<stdio.h>
 int digit(int n)
 {
