@@ -1,4 +1,5 @@
 //Wap to find second largrest element in an array using recursion.
+// To write this code in "C" use printf in place of cout and scanf in place of cin.
 #include<iostream>
 using namespace std;
 int array_max(int arr[], int start, int N);
