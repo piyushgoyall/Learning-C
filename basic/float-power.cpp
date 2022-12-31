@@ -7,7 +7,7 @@ int main()
 	scanf("%d",&num);
 	printf("\n");
 	float power;
-	printf("Enter the power in floating value : ");
+	printf("Enter the flaot power : ");
 	scanf("%f",&power);
 	printf("\n");
 	float result = pow(num,power);
