@@ -1,33 +1,35 @@
 #include<stdio.h>
 int main()
 {
-	int a;
-	printf("enter the value of a ");
-	scanf("%d",&a);
-	switch(a)
+	int num;
+	printf("Enter a number : ");
+	scanf("%d",&num);
+	printf("\n");
+	
+	switch(num)
 	{
 		case 1:
-			printf("monday");
+			printf("Monday");
 			break;
 		case 2:
-			printf("tuesday");
+			printf("Tuesday");
 			break;
 		case 3:
-			printf("wednesday");
+			printf("Wednesday");
 			break;
 		case 4:
-			printf("thursday");
+			printf("Thursday");
 			break;
 		case 5:
-			printf("friday");
+			printf("Friday");
 			break;
 		case 6:
-			printf("saturday");
+			printf("Saturday");
 			break;
 		case 7:
-			printf("sunday");
+			printf("Sunday");
 			break;
 		default:
-			printf("invalid");
+			printf("Invalid");
 	}
 }
