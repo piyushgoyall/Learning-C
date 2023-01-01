@@ -2,8 +2,9 @@
 int main()
 {
 	char c;
-	printf("enter the value of c");
+	printf("enter the character : ");
 	scanf("%c",&c);
+	printf("\n");
 	switch(c)
 	{
 		case'A':
@@ -16,9 +17,9 @@ int main()
 		case'i':
 		case'o':
 		case'u':
-			printf("vowel");
+			printf("Entered character is a vowel");
 			break;
 		default:
-			printf("consonant");	
+			printf("Entered character is a consonant");	
 	}		
 }
