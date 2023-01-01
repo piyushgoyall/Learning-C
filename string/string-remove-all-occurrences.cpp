@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-	int repeat[0],r=0,i,j,l;
+	int i,j,l;
 	int flag=1;
 	char s[10];
 	printf("Enter the string :- ");
