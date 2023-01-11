@@ -8,5 +8,4 @@ int main()
 	b=3;
 	c=(sqrt(b)*a*a)/4;
 	printf("%d",c);
-    return 0;
 }
