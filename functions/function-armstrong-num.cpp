@@ -1,4 +1,4 @@
-//wap to enter any number and check if it is armstrong usinf function
+//wap to enter any number and check if it is armstrong using function.
 #include<stdio.h>
 #include<math.h>
 int armstrong(int num)
