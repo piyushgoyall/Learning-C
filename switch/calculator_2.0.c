@@ -15,14 +15,14 @@ int main()
 	scanf("%f",&num2);
 	printf("\n");
 
-    printf("Answer : ");
+    	printf("Answer : ");
 	float c=num1+num2;
 	float d=num1-num2;
 	float e=num1*num2;
 	float f=num1/num2;
 	switch(op)
 	{
-    	case '+':
+    		case '+':
 			printf("%.3f",c);
 			break;
 		case '-':
