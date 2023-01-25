@@ -10,6 +10,7 @@ int main()
     printf("Enter a number : ");
     scanf("%d",&num);
     int temp = num>0;
+    
     switch(temp)
     {
         case 1:

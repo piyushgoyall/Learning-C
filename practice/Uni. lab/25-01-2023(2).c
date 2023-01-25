@@ -11,11 +11,13 @@ int main()
     {
         count = count + 1;
     }
+
     for (int i = num; i > 0; i = i / 10)
     {
         rem = i % 10;
         sum = sum + pow(rem, count);
     }
+    
     if (num == sum)
     {
         printf("ARMSTRONG NUMBER");

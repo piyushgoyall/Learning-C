@@ -7,10 +7,12 @@ int main()
     printf("ENter the ending value : ");
     scanf("%d",&n);
     int sum = 0,temp=n;
+
     while(n>0)
     {
         sum = sum+n;
         n--;
     }
+    
     printf("Sum of natural numbers till %d : %d",temp,sum);
 }
