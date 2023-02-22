@@ -26,5 +26,5 @@ int main()
 
 int eoo(int num)
 {
-    num%2==0?printf("Even"):printf("Odd");
+    return(num%2==0?printf("Even"):printf("Odd"));
 }
