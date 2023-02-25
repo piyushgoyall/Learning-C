@@ -1,11 +1,11 @@
 // Write a program to check that the given number is prime, Armstrong or perfect using the concept of functions
 
 #include <stdio.h>
-#include<math.h>
+#include <math.h>
 
 int isarm(int num)
 {
-    int count=0;
+    int count = 0;
     for (int i = num; i != 0; i = i / 10)
     {
         count = count + 1;
@@ -30,28 +30,28 @@ int isarm(int num)
 
 int isprime(int num)
 {
-    for(int i=2;i<=num/2;i++)
+    for (int i = 2; i <= num / 2; i++)
     {
-        if(num%i==0)
+        if (num % i == 0)
         {
             printf("Not A Prime Number\n");
             return 0;
         }
     }
     printf("Prime Number\n");
-} 
+}
 
 int isper(int num)
 {
-    int sum=0;
-    for(int i=1;i<num;i++)
+    int sum = 0;
+    for (int i = 1; i < num; i++)
     {
-        if(num%i==0)
+        if (num % i == 0)
         {
             sum += i;
         }
     }
-    if(sum==num)
+    if (sum == num)
     {
         printf("Perfect Number\n");
     }
@@ -65,7 +65,7 @@ int main()
 {
     int num;
     printf("Enter a number : ");
-    scanf("%d",&num);
+    scanf("%d", &num);
     isarm(num);
     isprime(num);
     isper(num);
