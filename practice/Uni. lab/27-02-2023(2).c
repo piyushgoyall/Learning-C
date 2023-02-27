@@ -1,7 +1,7 @@
 // C Program to check number is palindrome or not.
 
 #include<stdio.h>
-int ispalin(int num)
+void ispalin(int num)
 {
     int temp=num,rem,sum=0;
     while(num>0)
