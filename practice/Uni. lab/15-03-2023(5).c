@@ -1,3 +1,5 @@
+// Write a program in C to find smallest element of an array.
+
 #include <stdio.h>
 int main()
 {
