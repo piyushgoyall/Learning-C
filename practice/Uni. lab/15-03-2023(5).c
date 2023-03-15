@@ -1,5 +1,3 @@
-// WAP in C to copy one array element into another array.
-
 #include <stdio.h>
 int main()
 {
@@ -12,17 +10,15 @@ int main()
         printf("Enter element arr[%d] : ", i);
         scanf("%d", &arr[i]);
     }
-    printf("\n");
-    int arrt[n];
-    for (int i = 0; i < n; i++)
-    {
-        arrt[i] = arr[i];
-    }
 
+    int small = arr[0];
     for (int i = 0; i < n; i++)
     {
-        printf("Element arr[%d] : %d", i, arr[i]);
-        printf("\n");
+        if (arr[i] < small)
+        {
+            small = arr[i];
+        }
     }
+    printf("Array's minimum element : %d",small);
     return 0;
 }
