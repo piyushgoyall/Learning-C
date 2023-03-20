@@ -3,16 +3,16 @@ int prime(int num)
 {
 	int flag=1;
 	for(int i=2; i<num;i++) 
-    {
-	    if(num%i == 0)
-	    {    	
-	        flag = 0;
-	        break;
-	    }
-    }
-    if(flag==1)
-    {
-    	printf("%d is a Prime Number",num);
+    	{
+		if(num%i == 0)
+	    	{    	
+	        	flag = 0;
+	        	break;
+	    	}
+    	}
+    	if(flag==1)
+    	{
+    		printf("%d is a Prime Number",num);
 	}
 	else
 	{
