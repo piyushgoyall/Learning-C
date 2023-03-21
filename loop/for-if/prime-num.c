@@ -7,17 +7,17 @@ int main()
 	scanf("%d",&number);
 	printf("\n");
 	for(int i=2; i<number;i++) 
-    {
+    	{
 	    if(number%i == 0)
 	    {    	
 	        flag = 0;
 	        break;
 	    }
 	  
-    }
-    if(flag==1)
-    {
-    	printf("%d is a Prime Number",number);
+    	}
+    	if(flag==1)
+    	{
+    		printf("%d is a Prime Number",number);
 	}
 	else
 	{
