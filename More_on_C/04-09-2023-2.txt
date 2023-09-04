@@ -1,0 +1,33 @@
+OOPS
+Literals:
+        Decimal : int i = 50;
+        Octal : int i = 012;
+        HexaDecimal : int i = 0x7f;
+        Floating Point : float x = 2.5;
+        Character : char x = 'A';
+        String : char z[] = "Hello";
+        Escape Sequences : \n  \b  \f  \r  \t  \v  \0
+    
+Constant:
+        const int i = 5;
+
+DataTypes : Primary & Derived
+int, short , long  
+float
+double
+char (1 byte)
+wchar_t (2 byte)
+bool (true/false)
+void
+
+Type Modifiers
+signed
+unsigned : 0 to MaxRange of dataType
+
+short -32768 to 32767
+
+int x = 5, y = 6;
+cout << x << y;
+cin >> z >> w;
+
+OPERATORS
