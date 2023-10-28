@@ -12,7 +12,10 @@ private:
     int day;
 
 public:
-    Day(int d) : day(d) {}
+    Day(int d)
+    {
+        day = d;
+    }
 
     int getDay()
     {
@@ -26,7 +29,10 @@ private:
     int month;
 
 public:
-    Month(int m) : month(m) {}
+    Month(int m)
+    {
+        month = m;
+    }
 
     int getMonth()
     {
@@ -40,7 +46,10 @@ private:
     int year;
 
 public:
-    Year(int y) : year(y) {}
+    Year(int y)
+    {
+        year = y;
+    }
 
     int getYear()
     {
