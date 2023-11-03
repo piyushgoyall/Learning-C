@@ -5,27 +5,7 @@
 // 3- having one number as parameter - both length and breadth are assigned that number.
 // Create objects of the 'Rectangle class having none, one and two parameters and print their areas.
 
-#include <bits/stdc++.h>
-using namespace std;
-class Addition
-{
-private:
-    int n1;
-    int n2;
-    int c;
 
-public:
-    Addition(int a, int b)
-    {
-        n1 = a;
-        n2 = b;
-        c = n1 + n2;
-    }
-    void Display()
-    {
-        cout << "Sum: " << c << endl;
-    }
-};
 #include <iostream>
 using namespace std;
 

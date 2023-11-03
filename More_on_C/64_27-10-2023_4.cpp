@@ -9,13 +9,13 @@ using namespace std;
 class BankAccount
 {
 private:
-    double balance;
+    double balance = 2000;
 
 public:
-    BankAccount()
-    {
-        balance = 2000;
-    }
+    // BankAccount()
+    // {
+    //     balance = 2000;
+    // }
 
     void deposit(double amount)
     {
