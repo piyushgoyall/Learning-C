@@ -12,6 +12,9 @@ private:
     Number(int n)
     {
         num = n;
+    }
+    void showTable()
+    {
         for (int i = 1; i <= 10; i++)
         {
             cout << num << " * " << i << " = " << num * i << endl;
@@ -24,7 +27,8 @@ class Table
 public:
     Table()
     {
-        Number t2(5);
+        Number t1(5);
+        t1.showTable();
     }
 };
 int main()
