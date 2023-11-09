@@ -29,7 +29,8 @@ public:
 
 int main()
 {
-    Employee *object1 = NULL, *object2 = NULL;
+    // Employee *object1 = NULL, *object2 = NULL;
+    Employee *object1, *object2;
     object1 = object1->generateObj("Ramesh", 27);
     object1->showInfo();
     object2 = object2->generateObj("Alok", 45);
