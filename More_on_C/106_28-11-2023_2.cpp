@@ -9,7 +9,7 @@ public:
     int a, b;
     void Inputdata()
     {
-        cout << "\nEnter two nos: ";
+        cout << "Enter two nos: ";
         cin >> a >> b;
     }
 };
@@ -20,7 +20,9 @@ public:
     // Print Sum.
     void sum()
     {
-        cout << "\nSum = " << a + b;
+        // Inputdata();
+        cout << "Sum = " << a + b;
+        cout << "\n";
     }
 };
 
@@ -30,7 +32,9 @@ public:
     // Print difference.
     void difference()
     {
-        cout << "\nDifference" << abs(a - b);
+        // Inputdata();
+        cout << "Difference = " << abs(a - b);
+        cout << "\n";
     }
 };
 
@@ -41,7 +45,9 @@ public:
 
     void multiply()
     {
-        cout << "\nProduct = " << a + b;
+        // Inputdata();
+        cout << "Product = " << a + b;
+        cout << "\n";
     }
 };
 
@@ -55,10 +61,10 @@ int main()
     x.sum();
 
     y.Inputdata();
-    y.sum();
+    y.difference();
 
     z.Inputdata();
-    z.sum();
+    z.multiply();
 
     return 0;
 }
