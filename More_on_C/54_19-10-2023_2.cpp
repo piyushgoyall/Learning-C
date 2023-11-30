@@ -13,6 +13,8 @@ public:
 };
 int main()
 {
-    Table t1(5);
+    int n;
+    cin >> n;
+    Table t1(n);
     return 0;
 }

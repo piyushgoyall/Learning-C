@@ -2,15 +2,22 @@
 using namespace std;
 class Discount
 {
+private:
+    float op, dis;
+
 public:
-    Discount(float n)
+    Discount(float original, float discount)
     {
-        cout << "Original Price: 658" << endl;
-        cout << "After Discount of " << n << " price is: " << 658 - (658 * n) / 100;
+        op = original;
+        dis = discount;
+        cout << "\nAfter Discount of " << dis << "% price is: " << op - (op * dis) / 100;
     }
 };
 int main()
 {
-    Discount d1(5);
+    int op, dis;
+    cout << "Enter original price and discount percentage: ";
+    cin >> op >> dis;
+    Discount d1(op, dis);
     return 0;
 }

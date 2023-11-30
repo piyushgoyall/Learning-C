@@ -1,3 +1,5 @@
+// This code effectively calculates and outputs the number of digits in the input integer using recursion.
+
 #include <bits/stdc++.h>
 using namespace std;
 int digit(int num)
