@@ -2,8 +2,8 @@
 using namespace std;
 int main()
 {
-    char marks[100] = {'a','b','c','d'};
-    cout<<marks[5];
+    char marks[100] = {'a', 'b', 'c', 'd'};
+    cout << marks[5];
 
     // int marks[100];
 
