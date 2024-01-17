@@ -1,4 +1,4 @@
-// INSERTION SORT
+// INSERTION SORT (Card Playing Algo)
 
 #include <bits/stdc++.h>
 using namespace std;
