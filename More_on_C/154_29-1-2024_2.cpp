@@ -1,51 +1,97 @@
-// Change the string aaabbcccdd to a3b2c3d2 but make changes in the original string.
-
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
 using namespace std;
 
-vector<char> compress(vector<char> &input)
+void compressString(string &sen)
 {
-    string out;
-    int count = 1;
-    for (int i = 0; i < input.size(); i++)
+    int n = sen.length();
+    int output_index = 0;
+
+    for (int i = 0; i < n; i++)
     {
-        // int count = 1;
-        while (i < input.size() - 1 && input[i] == input[i + 1])
+        int count = 1;
+
+        while (i < n - 1 && sen[i] == sen[i + 1])
         {
             count++;
             i++;
         }
-        out = out + input[i];
-        if (count == 1)
-        {
-            continue;
-        }
 
-        out = out + to_string(count);
-        count = 1;
+        sen[output_index++] = sen[i];
+
+        if (count > 1)
+        {
+            sen[output_index++] = count + '0';
+        }
     }
-    input.clear();
-    for (auto i : out)
+    for (int i = 0; i < output_index; i++)
     {
-        input.push_back(i);
+        cout << sen[i];
     }
-    return input;
+    // sen.resize(output_index);
 }
 
 int main()
 {
-    vector<char> input;
-    char temp;
-    while (cin.get(temp) and temp != '\n')
-    {
-        input.push_back(temp);
-    }
+    string input;
+    cout << "Enter a string: ";
+    getline(cin, input);
 
-    vector<char> output = compress(input);
-    for (auto i : output)
-        cout << i;
+    compressString(input);
+
+    // cout << "Compressed String: " << input << endl;
+
     return 0;
 }
+
+// // Change the string aaabbcccdd to a3b2c3d2 but make changes in the original string.
+
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// vector<char> compress(vector<char> &input)
+// {
+//     string out;
+//     int count = 1;
+//     for (int i = 0; i < input.size(); i++)
+//     {
+//         // int count = 1;
+//         while (i < input.size() - 1 && input[i] == input[i + 1])
+//         {
+//             count++;
+//             i++;
+//         }
+//         out = out + input[i];
+//         if (count == 1)
+//         {
+//             continue;
+//         }
+
+//         out = out + to_string(count);
+//         count = 1;
+//     }
+//     input.clear();
+//     for (auto i : out)
+//     {
+//         input.push_back(i);
+//     }
+//     return input;
+// }
+
+// int main()
+// {
+//     vector<char> input;
+//     char temp;
+//     while (cin.get(temp) and temp != '\n')
+//     {
+//         input.push_back(temp);
+//     }
+
+//     vector<char> output = compress(input);
+//     for (auto i : output)
+//         cout << i;
+//     return 0;
+// }
 
 // #include <bits/stdc++.h>
 // using namespace std;
