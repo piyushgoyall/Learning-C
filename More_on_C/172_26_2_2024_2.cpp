@@ -52,6 +52,7 @@ int main()
 {
     int n;
     cin>>n;
+    
     ways(n);
     return 0;
 }
