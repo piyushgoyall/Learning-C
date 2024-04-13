@@ -2,6 +2,7 @@
 // which is just less than the current element and -1 otherwise.
 
 #include <bits/stdc++.h>
+
 using namespace std;
 
 void nse(int a[], int n)
